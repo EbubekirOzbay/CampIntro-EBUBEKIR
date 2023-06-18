@@ -7,7 +7,7 @@ namespace DegerVeReferansTipler
         // int , decimal ,float , double, bool =DEĞER TİP
         // Array , class , interface= REFERANS TİP
 
-        static void Mkain(string[] args)
+        static void Main(string[] args)
 
         {
             Console.WriteLine("Hello World!");
