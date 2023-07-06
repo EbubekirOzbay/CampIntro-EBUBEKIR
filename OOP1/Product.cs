@@ -5,6 +5,7 @@ using System.Text;
 namespace OOP1
 {
     internal class Product
+    // CRUD ekleme temizleme okumak ,güncelleme, silme  vs operasyonları
     //sineppet
     //Product - ürün demek //ProductName ürün ADI
     //Unitprice -ürün birim FİYATI demek
@@ -16,7 +17,8 @@ namespace OOP1
     //PascalCase kelimelerin ilk harfi büyük yazılır
     //camelCase kelimelerin ilk harfi küçük sonraki harf büyük
     //case sensitive -küçük büyük hafr duyarlı //ProductManager bir class productManager clasın değişkenidir.
-    
+    // int ,double , bool ... değer tip
+    // diziler,class,abstrack class ,interface =REFERANS TİP
 
     {
         public int Id { get; set; }
@@ -24,7 +26,5 @@ namespace OOP1
         public string  ProductName { get; set; }
         public double Unitprice { get; set; }
         public int UnItsInStock { get; set; }
-
-
     }
 }
