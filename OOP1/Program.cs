@@ -8,7 +8,7 @@ namespace OOP1
         {
             Product product1 = new Product();
             product1.Id = 1;
-            product1.CatagroyId = 1;
+            product1.CatagroyId = 2;
             product1.ProductName = "Masa";
             product1.Unitprice = 500;
             product1.UnItsInStock = 3;

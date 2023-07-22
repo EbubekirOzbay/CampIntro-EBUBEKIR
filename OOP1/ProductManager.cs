@@ -14,7 +14,7 @@ namespace OOP1
 
         public void Id (Product product)
         {
-            Console.WriteLine(  product.Id+"düzen");
+            Console.WriteLine(  product.Id + "düzen");
         }
        
         

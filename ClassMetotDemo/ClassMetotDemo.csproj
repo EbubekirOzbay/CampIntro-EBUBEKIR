@@ -1,9 +1,4 @@
-﻿
-
-
-
-
-<Project Sdk="Microsoft.NET.Sdk">
+mu<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>

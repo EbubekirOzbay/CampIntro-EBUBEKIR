@@ -6,7 +6,7 @@ namespace OOP1
 {
     internal class Product
     // CRUD ekleme temizleme okumak ,güncelleme, silme  vs operasyonları
-    //sineppet
+    //sineppet hazır kod demek tab.
     //Product - ürün demek //ProductName ürün ADI
     //Unitprice -ürün birim FİYATI demek
     // ID 1.sıraya yazılır //CatagroyId ürün referansı 2.sıraya yazılır

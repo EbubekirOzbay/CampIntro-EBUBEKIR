@@ -47,8 +47,43 @@ namespace CampIntro_EBUBEKIR
                 Console.WriteLine("degismedi");
             }
 
-         
+            Alici ebuabi = new Alici();
+            ebuabi.TeslimatAdresi = "ankara";
+            ebuabi.Name = "Ebu";
+
+            Satici yasin = new Satici();
+            
+            Tedarikci tedarikci = new Tedarikci();
+            tedarikci.Name = "Yudum";
+            tedarikci.TedarikAracıMarkası = "Mercedes";
 
         }
+    }
+
+
+
+    public class Alici:User
+    {
+        
+        public string TeslimatAdresi { get; set; }
+
+    }
+    public class Satici:User
+    {
+       
+        public int VergiNo { get; set; }
+        public string ÜrününAdı { get; set; }
+    }
+    public class Tedarikci:User
+    {
+        public string TedarikAracıMarkası { get; set; }
+        public int KacStokGetirecek { get; set; }
+    }
+    public class User
+    {
+        public string Name { get; set; }
+        public string LastName { get; set; }
+        public int Age { get; set; }
+        public int Boy { get; set; }
     }
 }
