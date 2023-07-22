@@ -57,6 +57,20 @@ namespace CampIntro_EBUBEKIR
             tedarikci.Name = "Yudum";
             tedarikci.TedarikAracıMarkası = "Mercedes";
 
+            User kullanici1 = new User();
+            kullanici1.Name = "ebu Müdür"; //Set
+            kullanici1.Age = 29;
+
+
+            User kulllanici2 = new User();
+            kulllanici2.Name = "Yasin Üye"; //Set
+            kulllanici2.Age = 29;
+
+
+
+            //Ui 
+            Console.WriteLine(kullanici1.Name); // Get
+            Console.WriteLine(kulllanici2.Name); //Get
         }
     }
 
@@ -81,6 +95,8 @@ namespace CampIntro_EBUBEKIR
     }
     public class User
     {
+        //get; veriyi okuma izni verir
+        //set; veriyi yazma izni verir
         public string Name { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }

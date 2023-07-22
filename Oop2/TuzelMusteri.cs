@@ -5,6 +5,8 @@ using System.Text;
 namespace Oop2
 {
     internal class TuzelMusteri:Musteri
+        //Kalıtım bırakma ortak özellikleri barındıran nesnelere ortak bir nesne oluşturularak ortak olanlara verilmesi.
+        //Örnek :nokta ile yanına bir class oluşturulur.
         //coorparate TuzelMusteri
         //Miras inheritance 
     {
